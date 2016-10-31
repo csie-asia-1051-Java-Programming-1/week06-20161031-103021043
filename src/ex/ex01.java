@@ -9,14 +9,17 @@
  */
 import java.util.Scanner;
 public class ex01 {
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public static void main(String args[]){
 		Scanner scn=new Scanner(System.in);
-		int n=scn.nextInt();
-		String c=scn.next();
-		
+		int h1=scn.nextInt();
+		String str=scn.next();
+		for (int i=0;i<h1;i++){
+			for (int j=0;j<h1;j++){
+				System.out.print(str);
+			}
+			System.out.println();
+		}
 	}
-
-	
-
 }
+
+

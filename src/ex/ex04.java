@@ -5,12 +5,11 @@
  * Date: 2016/10/31
  * Author: 103021043 何宙運
  */
-
+import java.util.Scanner;
 public class ex04 {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		Scanner scn = new Scanner(System.in);
 	}
 
 }
