@@ -14,12 +14,19 @@ public class ex02 {
 		int a =scn.nextInt();
 		System.out.println("N:");
 		int b =scn.nextInt();
-		F(a,b);}
+		F(a,b);
+		}
 	private static void F(int a,int b){
 	 int t=1; int y=1;int z=1;int c=a-b;
-		for(int i=1;i<=a;i++){t*=i;}  
-		for(int j=1;j<=b;j++){y*=j;}  
-		for(int k=1;k<=c;k++){z*=k;}  
+		for(int i=1;i<=a;i++){
+			t*=i;
+			}  
+		for(int j=1;j<=b;j++){
+			y*=j;
+			}  
+		for(int k=1;k<=c;k++){
+			z*=k;
+			}  
 		System.out.print("輸出\n"+t/(y*z));
 	}
 
